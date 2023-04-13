@@ -7,6 +7,7 @@ body{
     justify-content: center;
     height: 100vh;
     margin: 0;
+    background-color: rgb(41, 7, 7);
 
 }
 .container{
@@ -37,6 +38,8 @@ body{
   
 .panel.a {
     flex: 7;
+    background-size:cover;
+    
   }
   .panel.a h3 {
     opacity: 1;
