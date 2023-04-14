@@ -70,6 +70,7 @@ height: 4.5px;
     padding: 8px 30px;
     margin: 5px;
     font-size: 14px;
+    transform: .5, color .10s;
   }
   
   .btn:active {
@@ -78,6 +79,11 @@ height: 4.5px;
   
   .btn:focus {
     outline: 0;
+  }
+  .btn:hover {
+    color: black;
+    cursor: pointer;
+    transform: translate(0px,-5px);
   }
   
   .btn:disabled {
