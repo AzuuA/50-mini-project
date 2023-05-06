@@ -1,5 +1,5 @@
 :root {
-    --line-border-fill: #ff7676;
+    --line-border-fill: #19A7CE;
     --line-border-empty: #505050;
   
   }
@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #b9b8b8;
+    background-color: #03001C;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,7 +83,6 @@ height: 4.5px;
   .btn:hover {
     color: black;
     cursor: pointer;
-    transform: translate(0px,-5px);
   }
   
   .btn:disabled {
